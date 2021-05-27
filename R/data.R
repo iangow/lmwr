@@ -78,6 +78,8 @@
 
 #' Processed version of Boston HDMA data.
 #'
+#' Cross-sectional data, mortgage applications made in 1990 in the greater Boston metropolitan area.
+#'
 #' @format A data frame with 2,925 rows and 8 variables:
 #' \describe{
 #'   \item{seq}{Sequence number, unique identifier for observations}

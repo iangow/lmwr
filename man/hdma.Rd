@@ -24,6 +24,6 @@ A data frame with 2,925 rows and 8 variables:
 hdma
 }
 \description{
-Processed version of Boston HDMA data.
+Cross-sectional data, mortgage applications made in 1990 in the greater Boston metropolitan area.
 }
 \keyword{datasets}
