@@ -1,5 +1,9 @@
 # lmwr
 
+# lmwr 0.1.3
+
+* Added `minimum_wage` CSV data
+
 # lmwr 0.1.2
 
 * Added `nlsm` data set
