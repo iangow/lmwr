@@ -1,5 +1,9 @@
 # lmwr
 
+# lmwr 0.1.2
+
+* Added `nlsm` data set
+
 # lmwr 0.1.1
 
 * Added `hdma` data set

@@ -1,7 +1,7 @@
 Package: lmwr
 Type: Package
 Title: Data sets for "Learning Microeconometrics with R"
-Version: 0.1.1
+Version: 0.1.2
 Author: Ian Gow <iandgow@gmail.com>
 Maintainer: Ian Gow <iandgow@gmail.com>
 Description: Data sets for "Learning Microeconometrics with R".
