@@ -75,3 +75,19 @@
 #' }
 #' @source NLSY
 "nlsy97"
+
+#' Processed version of Boston HDMA data.
+#'
+#' @format A data frame with 2,925 rows and 8 variables:
+#' \describe{
+#'   \item{seq}{Sequence number, unique identifier for observations}
+#'   \item{deny}{Indicator for application denied}
+#'   \item{black}{Indicator for applicant race being black}
+#'   \item{wage}{Total monthly income of applicant (in dollars)}
+#'   \item{chist}{Credit history - consumer payments}
+#'   \item{mhist}{Credit history - mortgage payments}
+#'   \item{phist}{Credit history - public records}
+#'   \item{emp}{Years employed in applicable line of work}
+#' }
+#' @source \url{https://wps.pearsoned.com/aw_stock_ie_3/178/45691/11696965.cw/index.html}
+"hdma"
