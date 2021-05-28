@@ -90,6 +90,27 @@
 #'   \item{mhist}{Credit history - mortgage payments}
 #'   \item{phist}{Credit history - public records}
 #'   \item{emp}{Years employed in applicable line of work}
+#'   \item{assets}{TBD}
+#'   \item{chval}{TBD}
+#'   \item{clines}{TBD}
+#'   \item{coap}{TBD}
+#'   \item{lr}{TBD}
+#'   \item{lwage_coap}{TBD}
+#'   \item{lwage_coap2}{TBD}
+#'   \item{male_coap}{TBD}
+#'   \item{married}{TBD}
+#'   \item{pr}{TBD}
+#'   \item{s20}{TBD}
+#'   \item{s24a}{TBD}
+#'   \item{s27a}{TBD}
+#'   \item{s39}{TBD}
+#'   \item{s48}{TBD}
+#'   \item{s53}{TBD}
+#'   \item{s55}{TBD}
+#'   \item{s56}{TBD}
+#'   \item{s57}{TBD}
+#'   \item{school}{TBD}
+#'   \item{suff}{TBD}
 #' }
 #' @source \url{https://wps.pearsoned.com/aw_stock_ie_3/178/45691/11696965.cw/index.html}
 "hdma"
