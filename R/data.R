@@ -80,7 +80,7 @@
 #'
 #' Cross-sectional data, mortgage applications made in 1990 in the greater Boston metropolitan area.
 #'
-#' @format A data frame with 2,925 rows and 8 variables:
+#' @format A data frame with 2,925 rows and 39 variables:
 #' \describe{
 #'   \item{seq}{Sequence number, unique identifier for observations}
 #'   \item{deny}{Indicator for application denied}
@@ -90,27 +90,37 @@
 #'   \item{mhist}{Credit history - mortgage payments}
 #'   \item{phist}{Credit history - public records}
 #'   \item{emp}{Years employed in applicable line of work}
-#'   \item{assets}{TBD}
-#'   \item{chval}{TBD}
-#'   \item{clines}{TBD}
-#'   \item{coap}{TBD}
-#'   \item{lr}{TBD}
-#'   \item{lwage_coap}{TBD}
-#'   \item{lwage_coap2}{TBD}
-#'   \item{male_coap}{TBD}
-#'   \item{married}{TBD}
-#'   \item{pr}{TBD}
-#'   \item{s20}{TBD}
-#'   \item{s24a}{TBD}
-#'   \item{s27a}{TBD}
-#'   \item{s39}{TBD}
-#'   \item{s48}{TBD}
-#'   \item{s53}{TBD}
-#'   \item{s55}{TBD}
-#'   \item{s56}{TBD}
-#'   \item{s57}{TBD}
-#'   \item{school}{TBD}
-#'   \item{suff}{TBD}
+#'   \item{assets}{Liquid assets (in thousands}
+#'   \item{chval}{Change in median value of property in a given tract, 1980-1990}
+#'   \item{clines}{Number of separate consumer credit lines on credit reports}
+#'   \item{coap}{Co-applicant?}
+#'   \item{lr}{Loan amount/Appraised value}
+#'   \item{male_coap}{Co-applicant is male?}
+#'   \item{married}{Applicant is married?}
+#'   \item{pr}{Purchase price/Appraised value}
+#'   \item{s20}{Number of units in property purchased}
+#'   \item{s24a}{Number of dependents claimed by applicant}
+#'   \item{s27a}{Self-employed applicant}
+#'   \item{s39}{Number of commercial credit reports in loan file}
+#'   \item{s48}{Term of loan (months)}
+#'   \item{s53}{Private mortgage insurance (PMI) denied}
+#'   \item{s55}{Was there a co-signer for the application?}
+#'   \item{s56}{Unverifiable information}
+#'   \item{s57}{Number of times application was reviewed by underwriter}
+#'   \item{school}{Years of education}
+#'   \item{suff}{Indicator for property in Suffolk County}
+#'   \item{bd}{Boarded-up value of tract (1 if > MSA median)}
+#'   \item{dnotown}{Not owner-occupied property}
+#'   \item{dprop}{Type of property (1 if 2-4 families)}
+#'   \item{dr}{TBD}
+#'   \item{male}{Applicant sex is male}
+#'   \item{mi}{Median tract income (1 if > MSA median)}
+#'   \item{netw}{Net worth}
+#'   \item{old}{Applicant age (1 if > MSA median)}
+#'   \item{rtdum}{Minority population share in tract (1 if > 0.30)}
+#'   \item{uria}{Probability of unemployment by industry}
+#'   \item{vr}{Tract vacancy (1 if above MSA median)}
+#'   \item{wage_coap}{Total monthly income of coapplicant (in dollars)}
 #' }
 #' @source \url{https://wps.pearsoned.com/aw_stock_ie_3/178/45691/11696965.cw/index.html}
 "hdma"
